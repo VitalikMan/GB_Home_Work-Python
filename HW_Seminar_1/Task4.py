@@ -15,7 +15,7 @@ total_number_of_slices = chocolate_length * chocolate_width
 
 result = total_number_of_slices - slices
 
-if result % 2 == 0:
+if total_number_of_slices > slices and result % 2 == 0:
     print("Да! Можно разломить шоколадку на два прямоугольника. УРА! :)")
 else:
     print("К сожалению, нет.. :(")
