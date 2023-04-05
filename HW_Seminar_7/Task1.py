@@ -41,5 +41,5 @@ def beat_in_text(text):                         # Вариант 2 (кратки
         return ("Пам парам")
 
 
-text = input("Введите стихотворение: ").split()
+text = input("Введите стихотворение: ").lower().split()
 print(beat_in_text(text))
