@@ -1,7 +1,3 @@
-# def message_printing(massage: str):
-#     return massage
-import view
-
 # кейсы по открытию и закрытию файла
 load_successful = "Телефонная книга успешно загружена"
 save_successful = "Телефонная книга успешно сохранена"
